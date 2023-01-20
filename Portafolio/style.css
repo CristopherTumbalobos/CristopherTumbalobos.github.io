@@ -1,0 +1,14 @@
+body {
+  font-family: sans-serif;
+  background-color: rgb(176, 171, 171);
+}
+
+.container,
+.div-uno,
+.div-dos,
+.div-tres {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
