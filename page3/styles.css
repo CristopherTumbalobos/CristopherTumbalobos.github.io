@@ -1,0 +1,103 @@
+body {
+  background-image: url(https://i.pinimg.com/originals/5a/74/78/5a747832dc37a783a2d15c9008b15fcf.png);
+  font-family: sans-serif;
+  padding: 20px;
+  /* Para que no se repita la imagen, y no se redimensione con el scroll */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.established {
+  font-style: italic;
+}
+
+h1,
+h2 {
+  font-family: Impact, serif;
+}
+
+h1 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h1,
+h2,
+p {
+  text-align: center;
+}
+
+.menu {
+  background-color: burlywood;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -25px;
+  width: 50px;
+}
+
+hr {
+  height: 2px;
+  background-color: brown;
+  border-color: brown;
+}
+
+.bottom-line {
+  margin-top: 25px;
+}
+
+.flavor,
+.dessert {
+  width: 75%;
+  text-align: left;
+}
+
+.price {
+  width: 25%;
+  text-align: right;
+}
+
+.item p {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+/* FOOTER */
+footer {
+  font-size: 14px;
+}
+
+.address {
+  margin-bottom: 5px;
+}
+
+a {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: brown;
+}
+
+a:active {
+  color: brown;
+}

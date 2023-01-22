@@ -1,24 +1,66 @@
 <!DOCTYPE html>
-<html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Menu basico</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="shortcut icon" href="free logo_915991.png" type="image/x-icon" />
-  </head>
-  <body>
-    <header>
-      <a href="https://codigo369.com/" target="_blank" class="logo">
-        <img src="free logo_915991.png" alt="Logo" />
-        <h2 class="nombre-empresa">Codigo369</h2>
-      </a>
-      <nav>
-        <a href="" class="nav-link">Inicio</a>
-        <a href="" class="nav-link">Codigos</a>
-        <a href="" class="nav-link">Contacto</a>
-      </nav>
-    </header>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CatPhotoApp</title>
+</head>
+<body>
+  <main>
+    <h1>Aplicación de fotos de gatos</h1>
+    <section>
+      <h2>Fotos de gatos</h2>
+      <!-- TODO: Add link to cat photos -->
+      <p>Ver más <a href="https://freecatphotoapp.com" target="_blank">fotos de gatos</a> en nuestra galeria.</p>
+      <a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back"></a>
+    </section>
+    <section>
+      <h2>Lista de gatos</h2>
+      <h3>Cosas que los gatos aman:</h3>
+      <ul>
+        <li>pellizco de gato</li>
+        <li>punteros laser</li>
+        <li>lasaña</li>
+      </ul>
+      <figure>
+        <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
+        <figcaption>Los gatos <em>aman</em> la lasaña.</figcaption>
+      </figure>
+      <h3>Top 3 cosas que los gatos odian:</h3>
+      <ol>
+        <li>Tratamiento antipulgas</li>
+        <li>Truenos</li>
+        <li>Otros michis</li>
+      </ol>
+      <figure>
+        <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Five cats looking around a field.">
+        <figcaption>Los gatos <strong>odian</strong> otros gatos.</figcaption>
+      </figure>
+    </section>
+    <section>
+      <h2>Formulario de gatos</h2>
+      <form action="https://freecatphotoapp.com/submit-cat-photo">
+        <fieldset>
+          <legend>¿Tu gato es un gato de interior o exterior?</legend>
+          <label><input type="radio" id="indoor" name="indoor-outdoor" value="indoor" checked> Interior</label>
+          <label><input type="radio" id="outdoor" name="indoor-outdoor" value="outdoor"> Exterior</label>
+        </fieldset>
+        <fieldset>
+          <legend>¿Cuál es la personalidad de tu gato?</legend>
+          <input type="checkbox" id="loving" name="personality" value="loving" checked> <label for="loving"> Amoroso</label>
+          <input type="checkbox" id="lazy" name="personality" value="lazy"> <label for="lazy"> Perezoso</label>
+          <input type="checkbox" id="energetic" name="personality" value="energetic"> <label for="energetic"> Energético</label>
+        </fieldset>
+        <input type="text" name="catphotourl" placeholder="URL de la foto de gato" required>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>
+      Para mayor información visite <a href="https://www.elmundodelgato.com/" target="_blank">el mundo del gato</a>
+    </p>
+  </footer>
+</body>
 </html>
