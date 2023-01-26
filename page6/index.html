@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1 id="title">REGISTRO DE PROVEEDORES DEL ESTADO</h1>
+      <p id="description">FORMULARIO PARA EL REGISTRO DE BENEFICIARIO - RPE - RG001</p>
+    </header>
+    <form action="" id="survey-form">
+      <div class="container-rpe">
+        <div id="space"></div>
+        <div id="rpe">
+          <div>
+            <p id="p-rpe">Número de RPE: </p>
+          </div>
+          <input type="text" id="input-rpe">
+        </div>
+      </div>
+      <div class="sub primer-sub">
+        <div class="recuadro-sub"><strong>1</strong></div>
+        <div class="nombre-sub"><strong>ACCIÓN A EJECUTAR</strong></div>
+      </div>
+      <div class="group-four-checkbox">
+        <div class="group-checkbox">
+          <input type="checkbox" class="checkbox checkbox-dos" value="1">Crear
+        </div>
+        <div class="group-checkbox modificar">
+          <input type="checkbox" class="checkbox checkbox-dos" value="2">Modificar
+        </div>
+        <div class="group-checkbox inactivar">
+          <input type="checkbox" class="checkbox checkbox-dos" value="3">Inactivar
+        </div>
+        <div class="group-checkbox cerrar">
+          <input type="checkbox" class="checkbox checkbox-dos" value="4">Cerrar
+        </div>
+      </div>
+      <div class="sub">
+        <div class="recuadro-sub"><strong>2</strong></div>
+        <div class="nombre-sub"><strong>TIPO DE BENEFICIARIO</strong></div>
+      </div>
+      <div>
+        <div class="group-six-checkbox">
+          <div class="group-checkbox">
+            <input type="text" class="checkbox">Persona Física
+          </div>
+          <div class="group-checkbox">
+            <input type="text" class="checkbox">Persona Jurídica
+          </div>
+          <div class="group-checkbox asociacion">
+            <input type="text" class="checkbox">Asociación sin fines de lucro
+          </div>
+          <div class="group-checkbox cooperativa">
+            <input type="text" class="checkbox">Cooperativa
+          </div>
+          <div class="group-checkbox">
+            <input type="text" class="checkbox">Entidad Gubernamental
+          </div>
+          <div class="group-checkbox">
+            <input type="text" class="checkbox">Consorcio
+          </div>
+        </div>
+        <p class="subtitulo"><strong>CÓDIGO BENEFICIARIO:</strong></p>
+        <div class="codigo-beneficiario">
+          <p class="group-checkbox numero-documento">N° de documento:</p>
+          <input type="text" class="input-documento">
+          <div class="group-checkbox rnc">
+            <input type="text" class="checkbox">RNC.
+          </div>
+          <div class="group-checkbox cedula">
+            <input type="text" class="checkbox">Cédula
+          </div>
+          <div class="group-checkbox pasaporte">
+            <input type="text" class="checkbox">Pasaporte
+          </div>
+        </div>
+        
+        <p class="p-deductor"><strong>NOMBRE DE BENEFICIARIO O DEDUCTOR:</strong><input type="text" class="input-deductor"></p>
+
+        <div class="nombre-beneficiario">
+          <p class="group-checkbox pais-origen">País de Origen / Nacionalidad:</p>
+          <div class="group-checkbox dominicana">
+            <input type="text" class="checkbox">Dominicana
+          </div>
+          <div class="div-otra">
+            <p class="group-checkbox otra">Otra:</p>
+            <input type="text" class="input-otra">
+          </div>
+        </div>
+      </div>
+      <div class="sub  sub-tres">
+        <div class="recuadro-sub"><strong>3</strong></div>
+        <div class="nombre-sub"><strong>DOMICILIO</strong></div>
+      </div>
+      <div class="container-dom">
+        <div class="container-dir">
+          <div class="div-dom">
+            <p class="group-checkbox dom">País:</p>
+            <select id="dropdown" class="input-dom">
+              <option value="">Escoga</option>
+              <option value="1">Perú</option>
+              <option value="2">México</option>
+            </select>
+            <!-- <input type="text" class="input-dom"> -->
+          </div>
+          <div class="div-dom">
+            <p class="group-checkbox dom">Región:</p>
+            <input type="text" class="input-dom">
+          </div>
+          <div class="div-dom">
+            <p class="group-checkbox dom">Provincia:</p>
+            <input type="text" class="input-dom">
+          </div>
+          <div class="div-dom">
+            <p class="group-checkbox dom">Municipio:</p>
+            <input type="text" class="input-dom">
+          </div>
+          <div class="div-dom">
+            <p class="group-checkbox dom">Ciudad:</p>
+            <input type="text" class="input-dom">
+          </div>
+          <div class="div-dom">
+            <p class="group-checkbox dom">Calle/Ave.:</p>
+            <input type="text" class="input-dom">
+          </div>
+          <label class="div-dom" id="number-label">
+            <p class="group-checkbox dom">Número:</p>
+            <input type="number" class="input-dom" id="number" min="0" max="9" placeholder="Número">
+          </label>
+        </div>
+        <div class="container-tel">
+          <div class="div-dom">
+            <p class="group-checkbox dom">Teléfono:</p>
+            <input type="text" class="input-dom">
+          </div>
+          <div class="div-dom">
+            <p class="group-checkbox dom">Móvil:</p>
+            <input type="text" class="input-dom">
+          </div>
+          <div class="div-dom">
+            <p class="group-checkbox dom">Fax:</p>
+            <input type="text" class="input-dom">
+          </div>
+          <label class="div-dom" id="email-label">
+            <p class="group-checkbox dom">Email:</p>
+            <input type="email" class="input-dom" id="email" required placeholder="Email">
+          </label>
+          <div>
+            <p class="group-checkbox referencia">Referencia del domicilio:</p>
+            <textarea id="" cols="30" rows="10" class="textarea-dom"></textarea>
+          </div>
+        </div>
+      </div>
+      <div class="sub sub-cuatro">
+        <div class="recuadro-sub"><strong>4</strong></div>
+        <div class="nombre-sub"><strong>DATOS DEL SOLICITANTE:</strong></div>
+      </div>
+      <div class="container-soli">
+        <div class="container-columna-soli">
+          <label class="div-soli" id="name-label">
+            <p class="group-checkbox soli">Primer nombre:</p>
+            <input type="text" class="input-soli" id="name" required placeholder="Primer nombre">
+          </label>
+          <div class="div-soli">
+            <p class="group-checkbox soli">Primer apellido:</p>
+            <input type="text" class="input-soli">
+          </div>
+          <div class="div-soli">
+            <p class="group-checkbox soli">N° de documento:</p>
+            <input type="text" class="input-soli">
+          </div>
+        </div>
+        <div class="container-columna-soli">
+          <div class="div-soli">
+            <p class="group-checkbox soli">Segundo nombre:</p>
+            <input type="text" class="input-soli">
+          </div>
+          <div class="div-soli">
+            <p class="group-checkbox soli">Segundo apellido:</p>
+            <input type="text" class="input-soli">
+          </div>
+          <div class="group-two-checkbox">
+            <div class="space-two"></div>
+            <label class="group-checkbox">
+              <input type="radio" name="identificacion" class="checkbox" value="1">Pasaporte
+            </label>
+            <label class="group-checkbox">
+              <input type="radio" name="identificacion" class="checkbox" value="2">Cédula
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="div-enviar">
+        <button type="submit" id="submit">Enviar</button>
+      </div>
+    </form>
+    <footer>
+      <div class="div-footer">
+        <div class="recuadro-footer"></div>
+        <div class="line-footer"><strong class="page">1</strong></div>
+      </div>
+    </footer>
+  </div>
+  <div class="fuente">
+    <span>Hecho con HTML y CSS (No responsivo)</span>
+    <span>Fuente: <a href="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fs2.studylib.es%2Fstore%2Fdata%2F003512527_1-ec5ab2b14aee09babb84e9bf9a1e18dd.png&f=1&nofb=1&ipt=52ea621af74b937137ea538af4efb21c4f6d265d41b7a9ec63791b841003a25f&ipo=images" target="_blank">Registro de proveedores del estado</a></span>
+  </div>
+</body>
+</html>
