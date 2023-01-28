@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
 body {
-  font-family: sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .container,
@@ -9,3 +11,9 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+/* .container p {
+  margin-top: -20px;
+  font-size: 0.85rem;
+  font-weight: 700;
+} */
