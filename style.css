@@ -12,6 +12,7 @@ body {
   align-items: center;
 }
 
+/* Comentando para que agarre bien los cambios del CSS */
 .container p {
   margin-top: -20px;
   font-size: 0.9rem;
