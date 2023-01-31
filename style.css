@@ -12,9 +12,10 @@ body {
   align-items: center;
 }
 
-/* Comentando para que agarre bien los cambios del CSS */
 .container p {
   margin-top: -20px;
   font-size: 0.9rem;
   text-align: center;
 }
+
+/* Agregando lineas de código vacías para que agarre bien los cambios del CSS */
